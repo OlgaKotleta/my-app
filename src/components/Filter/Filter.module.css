@@ -1,0 +1,42 @@
+.filterContainer {
+    position: absolute;
+    width: 400px;
+   
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 12px 20px;
+    padding-right: 40px;
+    font-size: 1rem;
+    border: 2px solid #42b5cb;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+    color: #4c4b57;
+  }
+  
+  .searchInput:focus {
+    border-color: #2d9db5;
+    box-shadow: 0 2px 12px rgba(45, 157, 181, 0.2);
+  }
+  
+  .clearButton {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #999;
+    cursor: pointer;
+    padding: 0 5px;
+    line-height: 1;
+  }
+  
+  .clearButton:hover {
+    color: #d63d2e;
+  }
