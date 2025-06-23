@@ -5,7 +5,7 @@ export const fetchCharacters = async (): Promise<Character[]> => {
     if (!response.ok) throw new Error('Network error');
     
     const data = await response.json();
-    console.log('Data:', data.results[0]?.image); // ← И это
+    console.log('Data:', data.results[0]?.image);
     return data.results.map((char: any) => ({
       id: char.id,
       name: char.name,
